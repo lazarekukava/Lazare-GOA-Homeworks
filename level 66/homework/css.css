@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: black;
+}
+
+nav button {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+main h2 {
+    font-size: 24px;
+    margin: 40px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item img {
+    width: 200px;
+    border-radius: 5px;
+}

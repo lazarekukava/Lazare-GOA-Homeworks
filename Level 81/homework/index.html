@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            border: 2px solid #000;
+            padding: 20px;
+            width: 300px;
+            margin: auto;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+        }
+        button {
+            font-size: 16px;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>student name: <span id="studentName">lazare</span></h2>
+        <p>aura: <span id="numberDisplay">0</span></p>
+        <button onclick="changeNumber(10)">10</button>
+        <button onclick="changeNumber(20)">20</button>
+    </div>
+
+    <script>
+        function changeNumber(value) {
+            document.getElementById("numberDisplay").textContent = value;
+        }
+    </script>
+
+</body>
+</html>
