@@ -1,0 +1,349 @@
+
+body{
+    background-color: rgb(16, 16, 16);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div1{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 8px 4px;
+    border-radius: 25px;
+    margin-top: 125px;
+    height: 550px;
+    width: 1000px;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.title{
+    color: green;
+    font-size: 125px;
+    margin-top: -40px;
+}
+
+.title2{
+    color: green;
+    font-size: 50px;
+    margin-top: -40px;
+}
+
+
+.page2{
+    background-color: green;
+    color: black;
+    font-size: 75px;
+    margin-bottom: -60px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 8px 4px;
+}
+
+.page2:hover{
+    box-shadow: 8px 8px 16px 8px;
+    font-size: 80px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+.div2{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    position: absolute;
+    top: 7%; 
+    left: 36%;
+    transform: translate(-5%, -45%);
+
+
+}
+
+
+
+
+
+.chad{
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.aura{
+    color: green;
+   display: flex;
+   justify-content: center;
+   font-size: 25px;
+}
+
+
+
+.programing{
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+
+.success{
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.h1-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 400px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+.btn-1{
+    height:200px;
+    width: 300px;
+
+    font-size: 50px;
+
+    border: 10px; color: black ;
+
+
+
+    border-radius: 25px 25px 25px 25px;
+
+
+    box-shadow: 5px 5px 50px 15px green;
+
+   
+}
+
+.btn-2{
+    height:200px;
+    width: 300px;
+
+    font-size: 50px;
+
+    border: 10px; color: black ;
+
+
+
+    border-radius: 25px 25px 25px 25px;
+
+
+    box-shadow: 5px 5px 50px 15px green;
+}
+
+
+
+.btn-3{
+    height:200px;
+    width: 300px;
+
+    font-size: 50px;
+
+    border: 10px; color: black ;
+
+
+
+    border-radius: 25px 25px 25px 25px;
+
+
+    box-shadow: 5px 5px 50px 15px green;
+}
+
+
+.btn-4{
+    height:200px;
+    width: 300px;
+
+    font-size: 50px;
+
+    border: 10px; color: black ;
+
+
+
+    border-radius: 25px 25px 25px 25px;
+
+
+    box-shadow: 5px 5px 50px 15px green;
+}
+
+
+.btn-5{
+    height:200px;
+    width: 300px;
+
+    font-size: 50px;
+
+    border: 10px; color: black ;
+
+
+
+    border-radius: 25px 25px 25px 25px;
+
+
+    box-shadow: 5px 5px 50px 15px green;
+}
+
+
+.btn-6{
+    height:200px;
+    width: 300px;
+
+    font-size: 50px;
+
+    border: 10px; color: black ;
+
+
+
+    border-radius: 25px 25px 25px 25px;
+
+
+    box-shadow: 5px 5px 50px 15px green;
+}
+
