@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREPVIcCkWNGNzUzt3wUfZhY-I09Z0Rn-jc4g&s') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ok {
+    height: 100px;
+}
